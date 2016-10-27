@@ -14,7 +14,7 @@ app.get('/blog', function (req, res){
 });
 
 app.get('/blog2', function (req, res){
-    res.send(' fashion ');
+    res.sendFile(path.join(__dirname, 'ui', 'blog2.html'));
 });
 
 app.get('/blog3', function (req, res){

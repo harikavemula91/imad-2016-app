@@ -18,7 +18,7 @@ app.get('/blog2', function (req, res){
 });
 
 app.get('/blog3', function (req, res){
-    res.send(' accesories');
+    res.send(' accessories');
 });
 
 app.get('/ui/style.css', function (req, res) {

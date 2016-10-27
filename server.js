@@ -10,7 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/blog', function (req, res){
-    res.sen('food fashion and accesories');
+    res.sen('food -recipes n health');
+});
+
+app.get('/blog2', function (req, res){
+    res.sen(' fashion ');
+});
+
+app.get('/blog3', function (req, res){
+    res.sen(' accesories');
 });
 
 app.get('/ui/style.css', function (req, res) {

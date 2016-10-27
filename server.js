@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/blog', function (req, res){
-    res.sen('food -recipes n health');
+    res.send('food -recipes n health');
 });
 
 app.get('/blog2', function (req, res){
-    res.sen(' fashion ');
+    res.send(' fashion ');
 });
 
 app.get('/blog3', function (req, res){
-    res.sen(' accesories');
+    res.send(' accesories');
 });
 
 app.get('/ui/style.css', function (req, res) {

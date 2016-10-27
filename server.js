@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/blog', function (req, res){
-    res.send('food -recipes n health');
+    res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
 });
 
 app.get('/blog2', function (req, res){

@@ -11,7 +11,6 @@ app.get('/', function (req, res) {
 
 app.get('/blog', function (req, res){
     res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
-    res.sendfile(path.join(__dirname, 'ui', 'diwali-115a.jpg'));
 });
 
 app.get('/blog2', function (req, res){
